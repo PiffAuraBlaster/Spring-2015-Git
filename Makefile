@@ -1,5 +1,5 @@
-all: main.c functions.c
-	gcc -o main main.c functions.c -I .
+all: assmain.c functions.c
+	gcc -o main assmain.c functions.c -I .
 
 run:
 	./main
