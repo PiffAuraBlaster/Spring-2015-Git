@@ -2,14 +2,7 @@
 
 //Given a string representing an assembly-language command, returns the machine-language opcode.//
 
-
 int getOpcode(char * command){
-	char A = 11;
-	char B = 12;
-	char C = 13; 
-	char D = 14;
-	char E = 15;
-	
 	if 	(strcmp(command, "NOP") == 0);
 		return 0;
 		
@@ -41,17 +34,17 @@ int getOpcode(char * command){
 		return 9;
 		
 	if (strcmp(command, "ROR") == 0);
-		return A;
+		return 11;
 		
 	if (strcmp(command, "JMP") == 0);
-		return B;
+		return 12;
 		
 	if (strcmp(command, "HLT") == 0);
-		return C;
+		return 13;
 		
 	if (strcmp(command, "LDX") == 0);
-		return D;
+		return 14;
 		
 	if (strcmp(command, "STX") == 0);
-		return E;	
+		return 15;	
 	}
