@@ -13,7 +13,7 @@ int main(void) {
 }
 
 void test_getOpcode() {
-  puts("testing int add(int a, int b)");
+  puts("getOpode (char * command)");
   assert(getOpcode(“LDD”) == 1);
   assert(getOpcode(“CAT”) == -1);
   assert(getOpcode(“STO”) == 3);

@@ -1,6 +1,5 @@
 #include <stdio.h>
 #include <stdlib.h>
-#include "function.h"
 
 int main()
 {
@@ -55,7 +54,7 @@ int main()
 	listing = fopen("lab.lst","w");
 	if (listing == NULL) perror("File does not exist");
 	else {
-		fprinf(listing, "%s", listwords);
+		fprintf(listing, "%s", listwords);
 	}
 	object = fopen("lab.obj","w");
 	if (object == NULL) perror("File does not exist");
@@ -64,8 +63,8 @@ int main()
 	}
 
 	
-	fclose("lab.asm")
-	fclose("lab.lst")
-	fclose("lab.obj")
+	fclose("lab.asm");
+	fclose("lab.lst");
+	fclose("lab.obj");
        return 0;
 }
