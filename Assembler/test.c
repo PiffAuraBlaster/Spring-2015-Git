@@ -1,8 +1,8 @@
 #include <stdio.h>
 #include <assert.h>
 
-#include <functions.h>
-#include <test.h>
+#include "functions.h"
+#include "test.h"
 
 int main(void) {
   
@@ -17,5 +17,6 @@ void test_getOpcode() {
   assert(getOpcode(“LDD”) == 1);
   assert(getOpcode(“CAT”) == -1);
   assert(getOpcode(“STO”) == 3);
+  assert(getOpcode("LDX") == D);
 }
 
