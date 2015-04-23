@@ -17,6 +17,6 @@ void test_getOpcode() {
   assert(getOpcode(“LDD”) == 1);
   assert(getOpcode(“CAT”) == -1);
   assert(getOpcode(“STO”) == 3);
-  assert(getOpcode("LDX") == D);
+  assert(getOpcode("LDX") == 11);
 }
 

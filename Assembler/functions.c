@@ -2,7 +2,14 @@
 
 //Given a string representing an assembly-language command, returns the machine-language opcode.//
 
+
 int getOpcode(char * command){
+	char A = 11;
+	char B = 12;
+	char C = 13; 
+	char D = 14;
+	char E = 15;
+	
 	if 	(strcmp(command, "NOP") == 0);
 		return 0;
 		

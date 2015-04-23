@@ -47,7 +47,6 @@ int main()
 		          //assemble final line
 		          //print results to screen, listing file, and object file
 		          //increment address by 2
-
 	
 		}
 	}
