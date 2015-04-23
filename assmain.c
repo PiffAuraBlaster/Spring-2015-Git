@@ -20,8 +20,22 @@ int main()
 		exit(0);}
 	else {
 	}
+	
+//Opens the two output files and prints the header lines of the output files.//
 	listing = fopen("lab.lst","w");
 	if (listing == NULL) perror("File does not exist");
+	else {
+		if (fgets (listwords, 100, listing) !=NULL)
+			puts(listwords);
+	}
 	object = fopen("lab.obj","w");
+	if (object == NULL) perror("File does not exist");
+	else {
+		if (fgets (listwords, 100, objectwords) !=NULL)
+			puts(objectwords);
+	}
+
+	
+	
        return 0;
 }
